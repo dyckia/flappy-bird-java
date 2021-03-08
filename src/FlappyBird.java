@@ -27,7 +27,7 @@ public class FlappyBird implements ActionListener, MouseListener, KeyListener {
         jframe.setTitle("Flappy Bird");
         jframe.setSize(WIDTH, HEIGHT);
         jframe.setVisible(true);
-//        jframe.setResizable(false);
+        jframe.setResizable(false);
         jframe.addMouseListener(this);
         jframe.addKeyListener(this);
 
